@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Mono');
+
+.head
+{
+	display: flex;
+	justify-content: center;
+	background:#D6EAF8;
+	padding:5px;
+}
+ .head h1
+ {	
+ 	font-family: 'Roboto Mono', monospace;
+ 	padding-top:35px;
+ 	color:#4481a2;
+ }
+ .head h1:hover {
+   color:#2780b1;
+ }
+ .head h1,
+ .navbar{
+ 	transition: 0.4s all linear;
+ }
+ .navbar { 
+ 	padding: .5rem 4rem;
+ 	background:#406f8a;
+ }
+.navbar-light .navbar-nav .nav-link {
+	color:white;
+	font-family: 'Poppins', sans-serif;
+ }
+ .d-block {
+ 	height: 520px;
+ }
+
+ .head img {
+ 	height: 100%;
+ }
+ .container-fluid {
+ 	padding:10px 50px 10px 50px;
+ 	text-align:justify;
+ }
+ 
+
+ @media screen and (max-width: 768px) {
+ 	
+ 	.head h1 {
+ 		font-size: 32px;
+ 		padding-top: 19px;
+ 	}
+ 	.navbar { 
+ 		padding: .5rem 1rem;
+ 	}
+ 	.d-block {
+ 		height: 100%;
+
+ 	}
+ 	.head img
+ 	 {
+ 	 	width:80px;
+ 	 }
+ 	 .container-fluid
+ {
+ 	padding:2px 5px 2px 5px;
+ }
+ 
+ }
+ @media screen and (max-width: 568px) {
+ 	 
+ 	 .head h1
+ 	 {
+       font-size: 28px;
+       padding-top: 16px;
+ 	 }	
+ }
+
+ @media screen and (max-width: 460px) {
+ 	 
+ 	 .head h1
+ 	 {
+       font-size: 20px;
+       padding-top: 9px;
+ 	 }	
+ 	 .head img
+ 	 {
+ 	 	width:50px;
+ 	 }
+
+ }
